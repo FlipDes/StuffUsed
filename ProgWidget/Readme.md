@@ -18,5 +18,5 @@
 - ProgTime_H
 - ProgTime_M
 
-*I push update when raiding at 5 mins interval.
+*I push update when raiding at 5 mins interval. <br />
 *Github/Githack have their own cache system so not all changes are instant. (roughly 5mins for Github/Not sure for Gihack)
