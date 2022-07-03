@@ -8,7 +8,7 @@
 
 # Own Widget
 - Download https://github.com/FlipDes/StuffUsed/blob/main/ProgWidget/ProgWidget.html (right-click raw save link as) and change to your liking
-- OR
+> OR
 - Get Json from https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/DragonsongProg.json
 
 ## Variables
