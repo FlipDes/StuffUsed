@@ -1,4 +1,4 @@
-#OBS
+# OBS
 
 New Browser Source
 Paste Link (https://raw.githack.com/FlipDes/StuffUsed/main/ProgWidget/ProgWidget.html) into URL 
@@ -6,7 +6,7 @@ Width 400
 Height 120
 Done
 
-#Own Widget
+# Own Widget
 
 Get Json from https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/DragonsongProg.json
 
