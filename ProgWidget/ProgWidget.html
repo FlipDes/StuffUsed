@@ -41,13 +41,13 @@
 }
 
 body{
-  background: url("https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/dsrbg.png");
+  background: url("https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/omgbg.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 </style>
-<div class="mytext" id="dragon">Dragonsong's Reprise</div>
+<div class="mytext" id="dragon">The Omega Protocol</div>
 <br>
 <div class="mytext" id="best">Loading</div>
 <div class="mytext" id="pulls">Loading</div>
@@ -61,7 +61,7 @@ body{
 <script>
 var interval = 1000 * 60; //seconds
 function update(){
-$.getJSON('https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/DragonsongProg.json', function(data) {
+$.getJSON('https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/OmegaProg.json', function(data) {
     $('#best').html("Best: P" + data.BestPhase + " " + data.BestPerc + "%");
     $('#pulls').html("Pulls: " + data.Pulls);
     $('#time').html("ProgTime: " + data.ProgTime_H + " hrs " + data.ProgTime_M + " mins");
