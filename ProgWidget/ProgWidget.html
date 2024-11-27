@@ -62,7 +62,7 @@ body{
 <script>
 var interval = 1000 * 60; //seconds
 function update(){
-$.getJSON('https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/OmegaProg.json', function(data) {
+$.getJSON('https://raw.githubusercontent.com/FlipDes/StuffUsed/main/ProgWidget/FruProg.json', function(data) {
     $('#best').html("Best: P" + data.BestPhase + " " + data.BestPerc + "%");
     $('#pulls').html("Pulls: " + data.Pulls);
     $('#time').html("ProgTime: " + data.ProgTime_H + " hrs " + data.ProgTime_M + " mins");
